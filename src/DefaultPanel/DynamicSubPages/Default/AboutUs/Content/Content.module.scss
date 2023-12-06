@@ -1,0 +1,26 @@
+.contentBlock {
+  width: 500px;
+
+  span {
+    color: #c76d7d;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 1px white;
+  }
+
+  h2 {
+    margin: 10px 0;
+    color: white;
+    font-size: 28px;
+    text-shadow: 0px 1px 1px black;
+  }
+
+  p {
+    color: #e3e3e3;
+    font-size: 19px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}

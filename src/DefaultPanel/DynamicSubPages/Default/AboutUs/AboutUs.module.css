@@ -1,0 +1,18 @@
+.container {
+  border-top: 5px solid #333333;
+  background-color: #000000;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: column;
+}
+.container .containerForContentAndMovie {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=AboutUs.module.css.map */

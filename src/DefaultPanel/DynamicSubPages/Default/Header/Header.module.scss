@@ -1,0 +1,49 @@
+.header {
+  background-color: black;
+  height: 80vh;
+  box-sizing: border-box;
+  background-image: url("./../../../../assets/images/boyDrinkCoffee.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-attachment: fixed;
+  background-position-y: 80px;
+  box-shadow: 10px 10px 150px 2px inset #181818;
+
+  .container {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(66, 66, 66, 0.28);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      text-align: center;
+      color: white;
+      width: 310px;
+      text-shadow: 0px 2px 1px #282828;
+      font-size: 32px;
+      letter-spacing: 1px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 50px;
+      transition: 2s ease;
+      color: blue;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 19px;
+      border-radius: 50px;
+      border: white 2px solid;
+      background-color: rgba(49, 48, 48, 0.35);
+
+      &:hover {
+        cursor: pointer;
+        scale: 1.05;
+      }
+    }
+  }
+}
