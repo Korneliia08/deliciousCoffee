@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Korneliia08/deliciousCoffee/static/css/main.d82d9b65.css",
+    "main.js": "/Korneliia08/deliciousCoffee/static/js/main.7c4f4209.js",
+    "static/media/boyDrinkCoffee.png": "/Korneliia08/deliciousCoffee/static/media/boyDrinkCoffee.27834331dc04c8410398.png",
+    "static/media/logo.png": "/Korneliia08/deliciousCoffee/static/media/logo.2d4bba0d20cc61fe4de4.png",
+    "static/media/cart.png": "/Korneliia08/deliciousCoffee/static/media/cart.50fc6475535d3784aa6a.png",
+    "index.html": "/Korneliia08/deliciousCoffee/index.html",
+    "main.d82d9b65.css.map": "/Korneliia08/deliciousCoffee/static/css/main.d82d9b65.css.map",
+    "main.7c4f4209.js.map": "/Korneliia08/deliciousCoffee/static/js/main.7c4f4209.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d82d9b65.css",
+    "static/js/main.7c4f4209.js"
+  ]
+}
