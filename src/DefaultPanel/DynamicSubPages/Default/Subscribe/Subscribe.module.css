@@ -1,0 +1,78 @@
+.container {
+  padding: 80px;
+  background-color: #000000;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.container .block {
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: rgba(19, 19, 19, 0.95);
+  width: 50%;
+  position: absolute;
+  bottom: -25px;
+  display: flex;
+  border-radius: 10px;
+  border: 2px inset #6060ea;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 5px 1px #070707, 0px 0px 10px 1px inset #151515;
+}
+.container .block h2, .container .block h3 {
+  color: white;
+  margin: 2px;
+  text-shadow: 0px 2px 5px black;
+  font-size: 22px;
+}
+.container .block h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.container .block form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .block form .inputText {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #02029d;
+  font-weight: bold;
+  border: 2px solid #3a3a3a;
+}
+.container .block form .styleInvalid {
+  border: 2px solid #3a3a3a;
+}
+.container .block form .styleInvalid:invalid {
+  border: 2px solid #810505;
+}
+.container .block form .inputSubmit {
+  padding: 5px 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(1, 14, 100, 0.76);
+  transition: 1s ease;
+  border: none;
+}
+.container .block form .inputSubmit:hover {
+  cursor: pointer;
+  scale: 0.97;
+}
+.container .block form span {
+  margin-top: 5px;
+  color: green;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px black;
+}
+
+/*# sourceMappingURL=Subscribe.module.css.map */

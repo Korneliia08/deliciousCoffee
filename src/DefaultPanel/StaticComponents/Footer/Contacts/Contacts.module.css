@@ -1,0 +1,25 @@
+.blockForContacts {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.blockForContacts h3 {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 4px #0a0a0a;
+}
+.blockForContacts .blockContact {
+  display: flex;
+  column-gap: 20px;
+  padding: 5px 0px;
+}
+.blockForContacts .blockContact span {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 4px #0a0a0a;
+}
+
+/*# sourceMappingURL=Contacts.module.css.map */
