@@ -9,8 +9,9 @@ const Nav = () => {
             <nav className={style.nav}>
                 <img src={logo} alt="logo" className={style.logo}/>
                 <div className={style.containerForLink}>
-                    <Link>Home</Link>
+                    <Link to={"/"}>Home</Link>
                     <Link>About us</Link>
+                    <Link to={"/products"}>Products</Link>
                     <Link>Contacts</Link>
                     <button>
                         <img src={cart} alt="icon cart" className={style.iconCart}/>

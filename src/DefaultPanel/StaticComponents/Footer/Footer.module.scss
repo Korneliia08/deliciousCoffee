@@ -1,4 +1,27 @@
 .footer {
-  background-color: yellow;
-  height: 100vh;
+  background-color: #212121;
+  padding-top: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .bottomComponent {
+    border-top: 1px solid rgba(0, 0, 0, 0.49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+    h5 {
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
 }

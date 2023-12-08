@@ -1,0 +1,21 @@
+.btnArrowTop {
+  background-color: #2f2f2f;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  padding: 8px 5px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px inset #003380;
+  transition: 700ms ease;
+  box-shadow: 0px 0px 10px 1px inset #232323;
+
+  &:hover {
+    cursor: pointer;
+    scale: 0.97;
+  }
+
+  .icon {
+    width: 28px;
+  }
+}
