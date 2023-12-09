@@ -5,7 +5,7 @@ import Description from "./Description/Description";
 
 const AboutUs = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container} id='about'>
             <div className={style.containerForContentAndMovie}>
                 <Content/>
                 <IframeMovie/>

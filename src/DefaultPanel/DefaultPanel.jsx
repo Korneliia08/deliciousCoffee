@@ -3,6 +3,7 @@ import Footer from "./StaticComponents/Footer/Footer";
 import {Outlet} from "react-router-dom";
 import ArrowTop from "./StaticComponents/ArrowTop/ArrowTop";
 import style from "./DefaultPanel.module.css";
+import Cart from "./StaticComponents/Cart/Cart";
 
 const DefaultPanel = () => {
     return (
@@ -12,6 +13,7 @@ const DefaultPanel = () => {
             </Outlet>
             <Footer/>
             <ArrowTop/>
+            <Cart/>
         </div>
     )
 }

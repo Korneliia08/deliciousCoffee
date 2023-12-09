@@ -1,0 +1,19 @@
+.container {
+  font-size: 27px;
+  color: white;
+
+  button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 60px;
+    margin-top: 30px;
+    transition: 400ms;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.18);
+    }
+  }
+}

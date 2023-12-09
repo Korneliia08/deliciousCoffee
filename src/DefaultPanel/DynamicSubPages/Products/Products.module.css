@@ -1,6 +1,14 @@
 .container {
-  background-color: #02127c;
-  flex-grow: 1;
+  background-color: black;
+  flex-grow: 20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 70px;
+  position: relative;
 }
 
 /*# sourceMappingURL=Products.module.css.map */

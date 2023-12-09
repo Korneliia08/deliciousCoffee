@@ -1,0 +1,67 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .infoAndImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .information {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .name {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-shadow: 0px 1px 2px black;
+        margin-bottom: 10px;
+      }
+
+      .dataSpan {
+        color: white;
+        font-size: 20px;
+        text-shadow: 0px 1px 2px black;
+
+        .greenSpan {
+          color: #02b411;
+          margin-right: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .img {
+      width: 180px;
+    }
+  }
+
+  .button {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 700ms linear;
+    padding: 5px 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 1px black;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #1a1a1a;
+    }
+  }
+
+  .DeleteButton {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: -20px;
+    top: -10px;
+  }
+}

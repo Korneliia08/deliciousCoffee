@@ -24,7 +24,7 @@ const Subscribe = () => {
     }
 
     return (
-        <div className={style.container}>
+        <div className={style.container} id='contacts'>
             <div className={style.block}>
                 <h2>SUBSCRIBE TO THE NEWSLETTER</h2>
                 <h3>AND BE THE FIRST TO KNOW THE NEWS</h3>
