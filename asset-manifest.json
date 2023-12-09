@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/deliciousCoffee/static/css/main.a3fa9dda.css",
-    "main.js": "/deliciousCoffee/static/js/main.c33bc612.js",
+    "main.css": "/deliciousCoffee/static/css/main.9670135e.css",
+    "main.js": "/deliciousCoffee/static/js/main.2917d602.js",
     "static/media/boyDrinkCoffee.png": "/deliciousCoffee/static/media/boyDrinkCoffee.27834331dc04c8410398.png",
     "static/media/logo.png": "/deliciousCoffee/static/media/logo.2d4bba0d20cc61fe4de4.png",
     "static/media/cart.png": "/deliciousCoffee/static/media/cart.50fc6475535d3784aa6a.png",
+    "static/media/coffee.png": "/deliciousCoffee/static/media/coffee.71bdc8b7525859bff284.png",
+    "static/media/coffee-black.png": "/deliciousCoffee/static/media/coffee-black.886390606ebe15a00a3e.png",
+    "static/media/leftArrow.svg": "/deliciousCoffee/static/media/leftArrow.72eee4f15f7a1d693261d7063eec775b.svg",
     "index.html": "/deliciousCoffee/index.html",
-    "main.a3fa9dda.css.map": "/deliciousCoffee/static/css/main.a3fa9dda.css.map",
-    "main.c33bc612.js.map": "/deliciousCoffee/static/js/main.c33bc612.js.map"
+    "static/media/arrowTop.svg": "/deliciousCoffee/static/media/arrowTop.0ef0f6cca33f7438b8bf0c7d1b1b05ee.svg",
+    "main.9670135e.css.map": "/deliciousCoffee/static/css/main.9670135e.css.map",
+    "main.2917d602.js.map": "/deliciousCoffee/static/js/main.2917d602.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fa9dda.css",
-    "static/js/main.c33bc612.js"
+    "static/css/main.9670135e.css",
+    "static/js/main.2917d602.js"
   ]
 }
